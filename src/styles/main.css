@@ -1,27 +1,126 @@
-body {
-    font-family: 'Arial', sans-serif;
-    background: #fff7f0;
-    margin: 0;
-    padding: 0;
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+img {
+    max-width: 100%;
+}
+
+body{
+    background-color: #470822
+}
+
+h1 {
     text-align: center;
-    color: #333;
-  }
-  
-  .container {
-    padding: 2rem;
-  }
-  
-  h1 {
-    color: #b56e8f;
-  }
-  
-  .whatsapp-btn {
-    display: inline-block;
-    margin-top: 2rem;
-    padding: 1rem 2rem;
-    background-color: #25D366;
+}
+
+.main-container{
+    position: relative;
+    overflow: hidden;
+
+}
+
+.corner{
+    position: absolute;
+    top: 0px;
+    transform: rotate(15deg) translatey(-10%);
+    overflow: hidden;
+}
+
+
+.cover-img {
+    background-size: cover;
+    padding: 10px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover-img img{
+    display: block;
+    width: 50%;
+    border-radius: 40px;
+}
+
+.letter-cool{
+    font-family: "Parisienne", cursive;
+    font-weight: 600;
+    font-style: normal;
+    color: #ffffff;
+}
+
+.funny-letters{
+    font-family: "Parisienne", cursive;
+    font-weight: 500;
+    font-style: normal;
     color: white;
+    font-size: 40px;
+    padding-left: 20px;
+}
+
+.presentation{
+    margin-top: 0px;
+    color: white;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.presentation-inv {
+    font-size: 12px;
+}
+
+.presentation img{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.ancor-map{
+    display: block;
+    width: 30%;
+    text-align: center;
+    font-size: 12px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 5px;
     text-decoration: none;
-    border-radius: 10px;
-    font-size: 1.1rem;
+    margin-top: 15px;
+}
+
+.lineado {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 20px;
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 40px;
   }
+  
+  .lineado::before,
+  .lineado::after {
+    content: "";
+    width: 100px; /* Puedes ajustar el ancho */
+    height: 1px;
+    vertical-align: middle;
+    margin: 0 10px;
+    background-color: white;
+  }
+
+.inte{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
