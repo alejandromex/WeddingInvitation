@@ -25,10 +25,11 @@ h1 {
     position: absolute;
     top: -65px;
     right: 0px;
-    transform: rotate(90deg);
+    overflow: hidden;
 }
 
 .corner img{
+    transform: rotate(90deg) translatey(5%) translateX(10%);
     max-width: 125%;
     width: 125% !important;
 }
